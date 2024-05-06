@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .center-text{
+            font-size: 1.5rem;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 1.5rem;
+        text-transform: uppercase;
+        }
+        .new-content{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+            gap: 1.3rem;
+            align-items: center;
+            margin-top: 4rem;
+            text-align: center;
+        }
+        .box{
+            position: relative;
+            transition: all.40s ease;
+        }
+        .box img{
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+        .box h5{
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .box h6{
+            font-size: 16px;
+            font-weight: 700;
+    
+        }
+        .sale{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 60px;
+            height: 30px;
+            border-color: #000000;
+            color: #ffffff;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+    
+        }
+        .box:hover{
+            transform: scale(0.9) translateY(-5px);
+            cursor: pointer;
+        }
+    
+    </style>
+    <section class="new" id="new">
+        <div class="center-text">
+            <h2>New arrivals</h2>
+        </div>
+        <div class="new-content">
+            <div class="box">
+                <img src="images/new1.jpg" alt="">
+                <h5>half hand shirt</h5>
+                <h6>$188</h6>
+                <div class="sale">
+                    <h4>sale</h4>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/new2.jpg" alt="">
+                <h5>half hand shirt</h5>
+                <h6>$188</h6>
+                <div class="sale">
+                    <h4>sale</h4>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/new3.jpg" alt="">
+                <h5>half hand shirt</h5>
+                <h6>$188</h6>
+                <div class="sale">
+                    <h4>sale</h4>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/new4.jpg" alt="">
+                <h5>half hand shirt</h5>
+                <h6>$188</h6>
+                <div class="sale">
+                    <h4>sale</h4>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+</body>
+</html>
